@@ -2,7 +2,7 @@
 
 #### Note: This program can only read electronically submitted data. Senators that submit handwritten documents will be ignored. 
 
-This program is designed to scrape data from [`https://efdsearch.senate.gov/search/`](https://efdsearch.senate.gov/search/). It will then create [`graphs`](https://github.com/Anton22-del/Stonks/tree/main/Output%20Images) and generate a [`.csv`](https://raw.githubusercontent.com/Anton22-del/Stonks/main/Stonks%20v1.1/dist/Stock%20Data.csv) file containing the data it found. 
+This program is designed to scrape data from [`https://efdsearch.senate.gov/search/`](https://efdsearch.senate.gov/search/). It will then create [`graphs`](https://github.com/Anton22-del/Stonks/tree/main/Output%20Images) and generate a [`.csv`](https://raw.githubusercontent.com/Anton22-del/Stonks/main/Stonks%20v1.1/dist/Stock%20Data.csv) file containing the data it found. If the program crashes, update your `chromedriver.exe` (explained later) and make sure your inputs use the correct format.
 
 ## This Program Can Sort Data Outputs By:
 * Year
@@ -43,4 +43,5 @@ Download Python and copy [`Stonks_updated.py`](https://github.com/Anton22-del/St
 	6. Extract and place chromedriver.exe in the same folder as `Stonks_updated.py`
 	7. This should stop the program from crashing
 
+Please excuse the length of the Python script. It is messy to look at, but it gets the job done.  
 License: CC0
