@@ -14,6 +14,10 @@ This program is designed to scrape data from [`https://efdsearch.senate.gov/sear
 * .csv File Name
 * Stock
 * Pages to sort through
+* Number of electronic vs scanned submissions
+* Number of Amended Reports
+* Most Sold Stock per Year, Month, and Senator
+* Most Bought Stock per Year, Month, and Senator
 
 
 ## How To Use
