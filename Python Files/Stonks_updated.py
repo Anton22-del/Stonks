@@ -226,13 +226,6 @@ while True:
     print("Online script took %s seconds to execute" % (time.time() - start_time))
     break
 
-
-# A partial sell means that you have asked your broker to buy or sell stock, but the broker can't buy or sell as much as you
-# would like, and a portion of the order remains unfulfilled.
-# Every time you trade stocks, you're charged a commission even if it's partially fulfilled.
-# Not sure if the corresponding $ value is what got sold or what they tried to sell. No other numbers tho, so I'll prolly
-# continue with the same procedure
-
 start_time = time.time()
 better = {}
 Investors = 0
@@ -472,7 +465,6 @@ full_data = [better, best, better_recent, best_recent]
 
 # This will find the most and least popular stock (This is currently untested)
 # CONSIDER MAKING A LIST OF TOP 5 STOCKS BOUGHT AND SOLD
-
 
 nn = 0
 for full in full_data:
